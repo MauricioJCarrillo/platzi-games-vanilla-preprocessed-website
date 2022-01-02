@@ -1,6 +1,6 @@
 # Images
-*.png
-*.jpg
+#*.png
+#*.jpg
 
 # Logs
 logs
