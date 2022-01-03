@@ -1,0 +1,40 @@
+.footer--principal {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: $color-primario;
+}
+.nav--footer {
+    ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    li {
+        list-style: none;
+        margin-left: 50px;
+    }
+    a {
+        color: $color-claro;
+        text-decoration: none;
+        @include titulos($Fuente2);
+    }
+}
+.nav--social {
+    ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    li {
+        list-style: none;
+        margin-left: 20px;
+        color: $color-claro;
+    }
+    a {
+        color: $color-claro;
+        text-decoration: none;
+        @include titulos($Fuente2);
+    }
+}

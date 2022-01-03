@@ -1,0 +1,41 @@
+.header--principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border-bottom: 1px solid gray;
+}
+.nav--header {
+    ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    li {
+        list-style: none;
+        margin-left: 50px;
+    }
+    a {
+        color: $color-variacion;
+        text-decoration: none;
+        @include titulos($Fuente2);
+    }
+}
+.header__busqueda {
+    display: flex;
+    align-items: center;
+    /*margin-left: auto;*/
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+    i {
+		margin-right: 10px;
+		color: $color-secundario;
+	}
+	span {
+		color: $color-variacion;
+		@include titulos($Fuente2);	
+	}
+}
