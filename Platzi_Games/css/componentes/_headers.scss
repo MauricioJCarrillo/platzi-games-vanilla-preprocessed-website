@@ -21,6 +21,9 @@
         text-decoration: none;
         @include titulos($Fuente2);
     }
+    a:hover {
+        color: $color-secundario;
+    }
 }
 .header__busqueda {
     display: flex;

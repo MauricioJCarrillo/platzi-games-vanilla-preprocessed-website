@@ -57,6 +57,9 @@ main {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
 }
+.nav--header a:hover {
+  color: #8841da;
+}
 
 .header__busqueda {
   display: flex;
@@ -190,7 +193,7 @@ main {
 }
 
 .banner--homepage {
-  max-width: 300px;
+  max-width: 400px;
   padding: 50px;
   background-color: #8841da;
   color: #FFFFFF;
@@ -431,13 +434,13 @@ main {
 }
 
 .caja--mediana {
-  max-width: 600px;
-  height: 250px;
+  max-width: 700px;
+  height: auto;
 }
 
 .caja--pequena {
-  max-width: 300px;
-  height: 250px;
+  max-width: 400px;
+  height: auto;
 }
 
 .perfil {
