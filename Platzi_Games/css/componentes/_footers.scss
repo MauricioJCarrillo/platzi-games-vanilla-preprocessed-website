@@ -1,6 +1,6 @@
 .footer--principal {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     height: auto;
@@ -14,7 +14,7 @@
     }
     li {
         list-style: none;
-        margin-left: 50px;
+        margin: 0 25px;
     }
     a {
         color: $color-claro;
