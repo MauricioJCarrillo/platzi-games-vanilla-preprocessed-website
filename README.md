@@ -4,7 +4,7 @@ This project is a "Platzi Games Site" using preprocessors.
 
 ## GitHub Pages:
 
-[Practice - Platzi Games Site](https://mauriciojcarrillo.github.io/13.curso_de_preprocesadores_css_platzi/)
+[Practice - Platzi Games Site](https://mauriciojcarrillo.github.io/13.curso_de_preprocesadores_css_platzi/html/pagina-principal.html)
 
 ## Technologies and concepts:
 
