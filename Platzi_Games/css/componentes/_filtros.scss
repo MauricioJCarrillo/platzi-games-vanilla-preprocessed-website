@@ -27,3 +27,11 @@
         }
     }
 }
+
+@media only screen and (max-width: 900px ) {
+	.encabezado--con-filtros {
+		h2 {
+			font-size: 3rem;
+		}
+	}
+}

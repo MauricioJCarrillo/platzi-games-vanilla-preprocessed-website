@@ -42,3 +42,10 @@
 		@extend .perfil__titulo; 		
 	}
 }
+
+@media only screen and (max-width: 900px ) {
+	.perfil {
+		width: 90%;
+		margin: 0 auto;
+	}	
+}

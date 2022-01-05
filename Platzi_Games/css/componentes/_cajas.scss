@@ -49,21 +49,22 @@
 }
 
 .caja--con-fondo {
-	display: block;
-	box-shadow: none;
 	position: relative;
+	/*display: block;*/
+	box-shadow: none;
 	overflow: hidden;
 	background-color: $color-primario;
 	img {
-		max-width: 100%;
-		max-height: auto;
 		position: absolute;
+		max-width: 100%;
+		height: 100%;
 		opacity: .5;
-		object-fit: contain;
+		object-fit: cover;
 	}
 	&__contenido {
-		padding: 20px;
 		position: absolute;
+		margin: 0 auto;
+		padding: 20px;
 		text-align: center;
 		color: $color-claro;
 		p {
@@ -87,23 +88,52 @@
 }
 
 .caja--grande {
-	max-width: 1000px;
-	height: 582px;
+	max-width: 100%;
+	height: 600px;
 	h2 {
 		@include titulos($Fuente2);
 		font-size: 5rem;
     }
 	.caja--con-fondo__contenido {
-		padding-top: 200px;
+		padding-top: 120px;
 	}
 }
 
 .caja--mediana {
-	max-width: 700px;
-	height: auto;
+	max-width: 100%;
+	height: 300px;	
+	h2 {
+		@include titulos($Fuente2);
+		font-size: 3rem;
+    }
+	.caja--con-fondo__contenido {
+		padding-top: 50px;
+	}
 }
 
 .caja--pequena {
-	max-width: 400px;
-	height: auto;
+	max-width: 100%;
+	height: 300px;
+	h2 {
+		@include titulos($Fuente2);
+		font-size: 2.5rem;
+    }
+	.caja--con-fondo__contenido {
+		padding-top: 30px;
+	}
+}
+
+@media only screen and (max-width: 900px ) {
+	.caja--grande {
+		h2 {
+			font-size: 2.8rem;
+			padding-bottom: 20px;
+		}
+	}
+	.caja--pequena, .caja--mediana {
+		h2 {
+			font-size: 2rem;
+			padding-bottom: 20px;
+		}
+	}	
 }

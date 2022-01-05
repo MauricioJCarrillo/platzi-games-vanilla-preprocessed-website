@@ -14,3 +14,17 @@
 		font-size: 25px;
 	}
 }
+
+@media only screen and (max-width: 900px ) {
+	.buscador {
+		padding: 120px 0;
+		&__input {
+			width: 80%;
+			height: 30px;
+			padding: 5px;
+			border: none;
+			border-radius: 15px;
+			font-size: 1.6rem;
+		}
+	}
+}
