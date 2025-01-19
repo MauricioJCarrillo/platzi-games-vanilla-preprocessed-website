@@ -1,15 +1,15 @@
-# Platzi Games Site: 
+# PlatziGames website
 
-This project is a "Platzi Games Site" using preprocessors. 
+This project is a "PlatziGames website" using preprocessors. If you want to create a project like this, you can check out this course: [Curso de Preprocesadores CSS - 2020](https://platzi.com/clases/old/preprocesadores/) on Platzi
 
-## GitHub Pages:
+## GitHub Pages
 
-[Practice - Platzi Games Site](https://mauriciojcarrillo.github.io/13.curso_de_preprocesadores_css_platzi/html/pagina-principal.html)
+[PlatziGames website](https://mauriciojcarrillo.github.io/platzi-games-website/html/pagina-principal.html)
 
-## Technologies and concepts:
+## Technologies and concepts
 
 - HTML.
-- PUG (HTML preprocessor).
+- PUG - HTML preprocessor.
 - CSS.
 - Sass.
 - Less.
