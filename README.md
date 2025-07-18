@@ -4,7 +4,7 @@ This project is a "PlatziGames website" using preprocessors. If you want to crea
 
 ## GitHub Pages
 
-[PlatziGames website](https://mauriciojcarrillo.github.io/platzi-games-website/html/pagina-principal.html)
+[PlatziGames website](https://mauriciojcarrillo.github.io/platzi-games-vanilla-preprocessed-website/html/pagina-principal.html)
 
 ## Technologies and concepts
 
