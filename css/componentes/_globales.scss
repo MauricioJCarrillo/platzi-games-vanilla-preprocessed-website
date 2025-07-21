@@ -72,6 +72,9 @@ html {
   @include titulos($Fuente1);
 }
 body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
   font-size: 1.6rem;
 }
 main {
