@@ -1,139 +1,140 @@
 .contenedor--cajas {
-	display: flex;
-	justify-content: center;
-    flex-flow: row wrap;
-	width: 90%;
-	margin: 0 auto 35px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 90%;
+  margin: 0 auto 35px;
 }
 
 .caja {
-	max-width: 300px;
-    margin: 15px;
-    @include sombra-caja;
-    &__imagen img {
-        width: 100%;
-        height: auto;
-    }
-	&__contenido {
-		padding: 20px;
-		background-color: $color-claro;
-	}
-	span {
-        font-size: 1.8rem;
-		color: $color-secundario;
-        @include titulos($Fuente2);
-	}
-    h3 {
-        padding-bottom: 15px;
-        font-size: 1.8rem;
-        @include titulos($Fuente2);
-    }
-    p {
-        padding-bottom: 10px;
-        font-size: 1.6rem;
-    }   
-	a {
-        font-size: 1.6rem;
-		text-decoration: none;
-		color: $color-variacion;
-        @include titulos($Fuente2);
-	}
+  max-width: 300px;
+  margin: 15px;
+  @include sombra-caja;
+  &__imagen img {
+    width: 100%;
+    height: auto;
+  }
+  &__contenido {
+    padding: 20px;
+    background-color: $color-claro;
+  }
+  span {
+    font-size: 1.8rem;
+    color: $color-secundario;
+    @include titulos($Fuente2);
+  }
+  h3 {
+    padding-bottom: 15px;
+    font-size: 1.8rem;
+    @include titulos($Fuente2);
+  }
+  p {
+    padding-bottom: 10px;
+    font-size: 1.6rem;
+  }
+  a {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: $color-variacion;
+    @include titulos($Fuente2);
+  }
 }
 
 .contenido {
-    display: flex;
-	justify-content: center;
-	flex-flow: row wrap;
-	width: 90%;
-	margin: 0 auto 35px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 90%;
+  margin: 0 auto 35px;
 }
 
 .caja--con-fondo {
-	position: relative;
-	/*display: block;*/
-	box-shadow: none;
-	overflow: hidden;
-	background-color: $color-primario;
-	img {
-		position: absolute;
-		max-width: 100%;
-		height: 100%;
-		opacity: .5;
-		object-fit: cover;
-	}
-	&__contenido {
-		position: absolute;
-		margin: 0 auto;
-		padding: 20px;
-		text-align: center;
-		color: $color-claro;
-		p {
-            font-size: 1.8rem;
-			color: $color-claro;
-		}
-		h3 {
-			color: $color-claro;
-		}
-	}
-	&__categoria {
-		display: block;
-		width: auto;
-		max-width: 100px;
-		margin: 0 auto;
-		text-align: center;
-		background-color: $color-secundario;
-		color: $color-claro;
-		@include titulos($Fuente2);
-	}
+  position: relative;
+  /*display: block;*/
+  box-shadow: none;
+  overflow: hidden;
+  background-color: $color-primario;
+  img {
+    position: absolute;
+    max-width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    object-fit: cover;
+  }
+  &__contenido {
+    position: absolute;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    color: $color-claro;
+    p {
+      font-size: 1.8rem;
+      color: $color-claro;
+    }
+    h3 {
+      color: $color-claro;
+    }
+  }
+  &__categoria {
+    display: block;
+    width: auto;
+    max-width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: $color-secundario;
+    color: $color-claro;
+    @include titulos($Fuente2);
+  }
 }
 
 .caja--grande {
-	max-width: 100%;
-	height: 600px;
-	h2 {
-		@include titulos($Fuente2);
-		font-size: 5rem;
-    }
-	.caja--con-fondo__contenido {
-		padding-top: 120px;
-	}
+  max-width: 100%;
+  height: 600px;
+  h2 {
+    @include titulos($Fuente2);
+    font-size: 5rem;
+  }
+  .caja--con-fondo__contenido {
+    padding-top: 120px;
+  }
 }
 
 .caja--mediana {
-	max-width: 100%;
-	height: 300px;	
-	h2 {
-		@include titulos($Fuente2);
-		font-size: 3rem;
-    }
-	.caja--con-fondo__contenido {
-		padding-top: 50px;
-	}
+  max-width: 100%;
+  height: 300px;
+  h2 {
+    @include titulos($Fuente2);
+    font-size: 3rem;
+  }
+  .caja--con-fondo__contenido {
+    padding-top: 50px;
+  }
 }
 
 .caja--pequena {
-	max-width: 100%;
-	height: 300px;
-	h2 {
-		@include titulos($Fuente2);
-		font-size: 2.5rem;
-    }
-	.caja--con-fondo__contenido {
-		padding-top: 30px;
-	}
+  max-width: 100%;
+  height: 300px;
+  h2 {
+    @include titulos($Fuente2);
+    font-size: 2.5rem;
+  }
+  .caja--con-fondo__contenido {
+    padding-top: 30px;
+  }
 }
 
-@media only screen and (max-width: 900px ) {
-	.caja--grande {
-		h2 {
-			font-size: 2.8rem;
-			padding-bottom: 20px;
-		}
-	}
-	.caja--pequena, .caja--mediana {
-		h2 {
-			font-size: 2rem;
-			padding-bottom: 20px;
-		}
-	}	
+@media only screen and (max-width: 900px) {
+  .caja--grande {
+    h2 {
+      font-size: 2.8rem;
+      padding-bottom: 20px;
+    }
+  }
+  .caja--pequena,
+  .caja--mediana {
+    h2 {
+      font-size: 2rem;
+      padding-bottom: 20px;
+    }
+  }
 }

@@ -1,59 +1,59 @@
 .estadistica--perfil {
-	display: flex;
-	justify-content: space-around;
-	@include caja;
-	h3 {
-		font-weight: 600;
-		text-align: center;
-		@include titulos($Fuente2);
-	}
-	span {
-		font-size: 12px;
-		text-align: center;
-		@include titulos($Fuente2);
-	}
+  display: flex;
+  justify-content: space-around;
+  @include caja;
+  h3 {
+    font-weight: 600;
+    text-align: center;
+    @include titulos($Fuente2);
+  }
+  span {
+    font-size: 12px;
+    text-align: center;
+    @include titulos($Fuente2);
+  }
 }
 
 .estadistica--articulos {
-	width: 70%;
-	padding: 15px;
-	margin: 0 auto;
-	font-size: 1.2rem;
-	border-top: 1px solid get-opacity($color-primario, 0.3);
-	color: get-opacity($color-primario, 0.3);
-	ul {
-		display: flex;
-		justify-content: space-evenly;
-		list-style: none;
-		li {
-			text-decoration: none;
-		}
-		span {
-			margin-left: 10px;
-			font-size: 1.2rem;
-			color: $color-primario;
-		}
-	}
+  width: 70%;
+  padding: 15px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  border-top: 1px solid get-opacity($color-primario, 0.3);
+  color: get-opacity($color-primario, 0.3);
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    li {
+      text-decoration: none;
+    }
+    span {
+      margin-left: 10px;
+      font-size: 1.2rem;
+      color: $color-primario;
+    }
+  }
 }
 
 .caja--con-fondo__stats {
-	position: absolute;
-	margin: 0 auto;
-	bottom: 25px;
-	border-top: none;
-	text-align: center;
-	ul {
-		display: flex;
-	}
-	li {
-		display: flex;
-		margin: 0 30px;
-		opacity: .8;
-	}
-	i {
-		color: $color-claro;
-	}
-	span {
-		color: $color-claro;
-	}
+  position: absolute;
+  margin: 0 auto;
+  bottom: 25px;
+  border-top: none;
+  text-align: center;
+  ul {
+    display: flex;
+  }
+  li {
+    display: flex;
+    margin: 0 30px;
+    opacity: 0.8;
+  }
+  i {
+    color: $color-claro;
+  }
+  span {
+    color: $color-claro;
+  }
 }
