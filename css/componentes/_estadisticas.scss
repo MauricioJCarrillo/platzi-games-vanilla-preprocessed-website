@@ -47,6 +47,7 @@
   }
   li {
     display: flex;
+    align-items: center;
     margin: 0 30px;
     opacity: 0.8;
   }
@@ -55,5 +56,6 @@
   }
   span {
     color: $color-claro;
+    padding-left: 10px;
   }
 }
