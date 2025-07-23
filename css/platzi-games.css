@@ -108,13 +108,14 @@ main {
 @media only screen and (max-width: 430px) {
   .nav--header ul {
     flex-direction: column;
+    margin-top: 25px;
     padding: 0;
     border: 1px solid #012179;
     border-bottom: hidden;
   }
   .nav--header ul li {
     width: 100%;
-    padding: 5px 120px;
+    padding: 5px 100px;
     margin: 0 auto;
     text-align: center;
     border-bottom: 1px solid #012179;
@@ -905,6 +906,7 @@ main {
 @media only screen and (max-width: 600px) {
   .nav--footer ul {
     flex-direction: column;
+    margin-top: 25px;
     padding: 0;
     border: 1px solid #ffffff;
     border-bottom: hidden;

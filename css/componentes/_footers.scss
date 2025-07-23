@@ -63,6 +63,7 @@
 @media only screen and (max-width: 600px) {
   .nav--footer ul {
     flex-direction: column;
+    margin-top: 25px;
     padding: 0;
     border: 1px solid $color-claro;
     border-bottom: hidden;
