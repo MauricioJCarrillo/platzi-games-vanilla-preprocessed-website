@@ -52,7 +52,7 @@ main {
   border-bottom: 1px solid rgba(51, 51, 51, 0.5);
 }
 .header--principal img {
-  width: 200px;
+  width: 100px;
 }
 
 .nav--header ul {
@@ -853,7 +853,7 @@ main {
   background-color: #333333;
 }
 .footer--principal img {
-  width: 200px;
+  width: 100px;
 }
 
 .nav--footer ul {
