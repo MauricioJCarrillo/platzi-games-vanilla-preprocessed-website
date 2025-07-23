@@ -89,12 +89,13 @@
 
 .caja--grande {
   max-width: 100%;
+  min-height: 450px;
   h2 {
     @include titulos($Fuente2);
     font-size: 5rem;
   }
   .caja--con-fondo__contenido {
-    padding-top: 120px;
+    padding-top: 15%;
   }
 }
 

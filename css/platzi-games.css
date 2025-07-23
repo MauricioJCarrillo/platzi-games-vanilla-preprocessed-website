@@ -551,6 +551,7 @@ main {
 
 .caja--grande {
   max-width: 100%;
+  min-height: 450px;
 }
 .caja--grande h2 {
   font-family: "Oswald", sans-serif;
@@ -558,7 +559,7 @@ main {
   font-size: 5rem;
 }
 .caja--grande .caja--con-fondo__contenido {
-  padding-top: 120px;
+  padding-top: 15%;
 }
 
 .caja--mediana {
