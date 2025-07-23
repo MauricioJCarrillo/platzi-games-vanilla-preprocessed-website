@@ -577,7 +577,7 @@ main {
 
 .caja--pequena {
   max-width: 100%;
-  height: 300px;
+  min-height: 300px;
 }
 .caja--pequena h2 {
   font-family: "Oswald", sans-serif;
